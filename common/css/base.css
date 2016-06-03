@@ -1,0 +1,79 @@
+html{
+    /*font:14px/1.2 Arial,"Hiragino Sans GB","微软雅黑","宋体";*/
+}
+html,body,ul,li,p,h1,h2,h3,h4,h5,h6,input{
+	padding:0;
+	margin:0; 
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*common&rest*/
+input,select{
+	outline: none;
+}
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+
+}
+.no_highlight,a,input,select{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.table {
+    display: table;
+    table-layout: fixed;
+    width: 100%; 
+}
+.td {
+    display: table-cell; 
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+/*去除input[type=number]最右边的spinners*/
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/*320px设计布局*/
+
+/* iphone 6 */
+/*
+@media (min-device-width : 375px) and (max-device-width : 667px) and (-webkit-min-device-pixel-ratio : 2){
+     html{font-size: 12.71875px;} 
+}
+ iphone6 plus 
+@media (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3){
+    html{font-size: 14.9375px;}
+}
+*/

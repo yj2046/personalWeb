@@ -1,0 +1,70 @@
+/*# sourceMappingURL=publicNewEdit.css.map */
+/*leftbar-start*/
+.fixedCenter {
+    position: fixed;
+    margin: auto;
+    left: 0;
+    top: 86px;
+    text-align: center;
+    z-index: 9999;
+}
+
+.nav2{
+    position: absolute;
+    left: 0px;
+    top: 86px;
+}
+.nav1{
+    position: fixed;
+    left: 0;
+    top: -92px;
+}
+
+.fixedCenter .nav {
+    display: inline-block;
+    overflow: hidden;
+    width: 134px;
+    height: 738px;
+    background-color: #4719a0;
+    border: 3px solid #5626b8;
+    border-radius: 0 0 67px 67px;
+    text-align: center;
+}
+.fixedCenter .nav .logo {
+    padding: 13px 0px;
+    margin-bottom: 9px;
+    background-color: #3b1e8a;
+}
+.fixedCenter .nav .title {
+    font-size: 14px;
+    height: 25px;
+    line-height: 25px;
+    color: #0ffec6;
+    background-color: #3c108e;
+    font-weight: bolder;
+    margin: 5px 0;
+}
+.fixedCenter .nav .content {
+    font-size: 13px;
+    line-height: 22px;
+    padding: 0 4px;
+}
+.fixedCenter .nav .content span {
+    color: #ffffff;
+}
+.fixedCenter .nav .content .line {
+    display: block;
+}
+.fixedCenter .nav .content .inline {
+    padding: 0 6px;
+    display: inline-block;
+}
+.fixedCenter .nav .goTop {
+    width: 133px;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+.fixedCenter .nav .goTop:hover {
+    cursor: pointer;
+}
+/*leftbar-end*/
