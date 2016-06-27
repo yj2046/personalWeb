@@ -1,0 +1,12 @@
+/*!b.less*/
+div {
+  border: 1px solid green;
+}
+body {
+  background: red;
+}
+
+/*!c.less*/
+body {
+  font-size: 20px;
+}
