@@ -7,7 +7,7 @@ $(function () {
        imgUrl: "http://www.lagou.com/activity/dist/curiosityPre/images/share.jpg",
        goToUrl: false
     };
-    share(datas);
+//    share(datas);
 
 
     var openFlag = true;
