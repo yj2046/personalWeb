@@ -1,0 +1,28 @@
+html,body{
+    width:100%;
+    background: #fff;
+    text-align: center;
+}
+.box{
+    padding: 0.5333rem 5% 1.3333rem;
+}
+p{
+    font-size:0.4266rem;
+    text-align: left;
+    line-height: 0.6266rem;
+    margin-top:1.8133rem;
+    margin-bottom:0.5333rem;
+    color: #333;
+}
+img{
+    width:90%;
+}
+.btn{
+    display: block;
+    position: fixed;
+    bottom: 1.3333rem;
+    width: 34%;
+    height: 1.8666rem;
+    left: 50%;
+    margin-left: -17%;
+}
