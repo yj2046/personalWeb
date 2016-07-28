@@ -54,7 +54,9 @@ body {
 
 .titlebox {
   width: 9.2rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative;
+}
 
 .line {
   border-bottom: 1px solid #e8e9eb;
