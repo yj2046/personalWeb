@@ -124,34 +124,34 @@ body {
       box-sizing: border-box;
     }
     .one{
-        display: none;
-        margin-bottom: getEleN(80);
-        input{
-          margin-bottom: getEleN(40);
+      display: none;
+      margin-bottom: getEleN(80);
+      input{
+        margin-bottom: getEleN(40);
+      }
+
+
+      .btn div{
+        width:getEleN(320);
+        height:getEleN(88);
+        line-height: getEleN(88);
+        font-size: getEleN(34);
+        box-sizing: border-box;
+        border-radius: getEleN(4);
+      }
+      .cancle{
+        color: #555;
+        border:1px solid #b5b5b5;
+      }
+      .sure{
+        color: #00b38a;
+        border:1px solid #00b38a;
+        span{
+          opacity:0.4;
         }
 
 
-        .btn div{
-          width:getEleN(320);
-          height:getEleN(88);
-          line-height: getEleN(88);
-          font-size: getEleN(34);
-          box-sizing: border-box;
-          border-radius: getEleN(4);
-        }
-        .cancle{
-          color: #555;
-          border:1px solid #b5b5b5;
-        }
-        .sure{
-          color: #00b38a;
-          border:1px solid #00b38a;
-          span{
-            opacity:0.4;
-          }
-
-
-        }
+      }
     }
     .commit{
       width:100%;

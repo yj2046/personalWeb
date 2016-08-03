@@ -45,25 +45,26 @@ body {
   font: 14px/22px "Hiragino Sans GB","Microsoft YaHei","微软雅黑","宋体"; }
 
 .process {
-  padding-bottom: 0.66667rem; }
-  .process img {
-    width: 100%; }
-  .process .showAll {
-    color: #00b38a;
-    font-size: 0.37333rem;
-    position: absolute;
-    bottom: 2.29333rem;
-    right: 0.69333rem; }
-    .process .showAll img {
-      width: 0.25333rem; }
-  .process .hideAll div {
-    float: right;
-    color: #00b38a;
-    font-size: 0.37333rem;
-    margin-bottom: 1.06667rem;
-    margin-right: 0.66667rem; }
-    .process .hideAll div img {
-      width: 0.25333rem; }
+  padding-bottom: 0.66667rem;
+  position: relative; }
+.process img {
+  width: 100%; }
+.process .showAll {
+  color: #00b38a;
+  font-size: 0.37333rem;
+  position: absolute;
+  top: 14.73333rem;
+  right: 0.69333rem; }
+.process .showAll img {
+  width: 0.25333rem; }
+.process .hideAll div {
+  float: right;
+  color: #00b38a;
+  font-size: 0.37333rem;
+  margin-bottom: 1.06667rem;
+  margin-right: 0.66667rem; }
+.process .hideAll div img {
+  width: 0.25333rem; }
 
 .btn {
   font-size: 0.45333rem;
@@ -88,8 +89,8 @@ body {
   background: #00b38a;
   color: #fff;
   border-radius: 0.04rem; }
-  .accept a {
-    color: #fff; }
+.accept a {
+  color: #fff; }
 
 .unclick {
   border: 1px solid #e8e9eb;
@@ -116,29 +117,29 @@ body {
   box-sizing: border-box;
   z-index: 999;
   padding: 1.04rem 0.8rem 0.66667rem; }
-  .refuse p {
-    font-size: 0.42667rem;
-    color: #333;
-    line-height: 0.72rem; }
-  .refuse .btn_2 {
-    margin-top: 0.4rem; }
-    .refuse .btn_2 .sureNo {
-      width: 3.06667rem;
-      height: 1.17333rem;
-      line-height: 1.17333rem;
-      background: #fff;
-      color: #00b38a;
-      border: 1px solid #02c79a;
-      box-sizing: border-box;
-      border-radius: 0.04rem;
-      margin-right: 0.4rem; }
-    .refuse .btn_2 .onceMore {
-      width: 3.06667rem;
-      height: 1.17333rem;
-      line-height: 1.17333rem;
-      background: #00b38a;
-      color: #fff;
-      border-radius: 0.04rem; }
+.refuse p {
+  font-size: 0.42667rem;
+  color: #333;
+  line-height: 0.72rem; }
+.refuse .btn_2 {
+  margin-top: 0.4rem; }
+.refuse .btn_2 .sureNo {
+  width: 3.06667rem;
+  height: 1.17333rem;
+  line-height: 1.17333rem;
+  background: #fff;
+  color: #00b38a;
+  border: 1px solid #02c79a;
+  box-sizing: border-box;
+  border-radius: 0.04rem;
+  margin-right: 0.4rem; }
+.refuse .btn_2 .onceMore {
+  width: 3.06667rem;
+  height: 1.17333rem;
+  line-height: 1.17333rem;
+  background: #00b38a;
+  color: #fff;
+  border-radius: 0.04rem; }
 
 .refuse_2 {
   display: none;
@@ -153,23 +154,23 @@ body {
   border-radius: 0.26667rem;
   background: #ffffff;
   z-index: 999; }
-  .refuse_2 .title {
-    font-size: 0.45333rem;
-    color: #333;
-    margin-bottom: 0.34667rem; }
-  .refuse_2 p {
-    font-size: 0.4rem;
-    color: #666;
-    margin-bottom: 0.2rem; }
-  .refuse_2 div {
-    width: 3.6rem;
-    margin: 0.2rem auto 0;
-    height: 1.17333rem;
-    line-height: 1.17333rem;
-    background: #00b38a;
-    color: #fff;
-    box-sizing: border-box;
-    border-radius: 0.04rem; }
+.refuse_2 .title {
+  font-size: 0.45333rem;
+  color: #333;
+  margin-bottom: 0.34667rem; }
+.refuse_2 p {
+  font-size: 0.4rem;
+  color: #666;
+  margin-bottom: 0.2rem; }
+.refuse_2 div {
+  width: 3.6rem;
+  margin: 0.2rem auto 0;
+  height: 1.17333rem;
+  line-height: 1.17333rem;
+  background: #00b38a;
+  color: #fff;
+  box-sizing: border-box;
+  border-radius: 0.04rem; }
 
 .shadow {
   display: none;

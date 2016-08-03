@@ -38,7 +38,7 @@ input, select {
 html {
   background-color: #ffffff;
   height:100%;
-  }
+}
 
 body {
   height:100%;
@@ -49,6 +49,7 @@ body {
 
 .process{
   padding-bottom: getEleN(50);
+  position: relative;
   img{
     width:100%;
   }
@@ -56,7 +57,7 @@ body {
     color: #00b38a;
     font-size: getEleN(28);
     position: absolute;
-    bottom:getEleN(172);
+    top:getEleN(1105);
     right:getEleN(52);
     img{
       width:getEleN(19);
