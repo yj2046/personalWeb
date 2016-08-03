@@ -1,0 +1,184 @@
+@function getEleN($n) {
+  @return $n / 75+ rem;
+}
+* {
+  outline: 0; }
+
+html, body, ul, li, p, h1, h2, h3, h4, h5, h6, input {
+  padding: 0;
+  margin: 0; }
+
+ul, li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.fl {
+  float: left; }
+.fr {
+  float: right; }
+
+/*common&rest*/
+input, select {
+  outline: none; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  overflow: hidden; }
+
+.clearfix {
+  zoom: 1; }
+
+html {
+  background-color: #ffffff;
+  height:100%;
+}
+
+body {
+  height:100%;
+  text-align: center;
+  position: relative;
+  font:14px/22px "Hiragino Sans GB","Microsoft YaHei","微软雅黑","宋体"
+}
+.header{
+  height:getEleN(89);
+  line-height: getEleN(89);
+  background: #00b38a;
+  font-size: getEleN(36);
+  color: #fff;
+}
+.main{
+  background: #02c79a;
+  padding:getEleN(10);
+  .content{
+    background: #ffffff;
+    border-radius:getEleN(6);
+    padding:getEleN(46) getEleN(30) getEleN(155);
+    .error,.telError,.mailError{
+      display: none;
+      text-align: left;
+      margin:getEleN(-22) 0 getEleN(10);
+      img{
+        width:getEleN(25);
+      }
+      span{
+        color: #ff7452;
+        font-size: getEleN(26);
+      }
+    }
+    p{
+      color: #00b38a;
+      font-size: getEleN(30);
+      text-align: left;
+      margin-bottom: getEleN(36);
+    }
+    .mailTitle{
+      margin:getEleN(30) 0 0;
+    }
+    .gray{
+      color: #999999;
+      margin:getEleN(36) 0 getEleN(20);
+    }
+    input{
+      display: block;
+      width:100%;
+      height:getEleN(98);
+      line-height: getEleN(98);
+      border:none;
+      background: #f5f5f5;
+      outline: none;
+      margin-bottom: getEleN(30);
+      color: #333;
+      font-size: getEleN(32);
+      text-indent: getEleN(20);
+      border-radius: getEleN(4);
+    }
+    .mailList{
+      li{
+        position: relative;
+        img{
+          position: absolute;
+          top:50%;
+          margin-top:getEleN(-15);
+          right:getEleN(22);
+          width:getEleN(26);
+        }
+      }
+
+
+    }
+    .addMail{
+      height:getEleN(96);
+      line-height: getEleN(96);
+      font-size: getEleN(30);
+      color: #00b38a;
+      border:1px dashed #d7d7d9;
+      border-radius: getEleN(4);
+      margin-bottom: getEleN(80);
+      box-sizing: border-box;
+    }
+    .one{
+        display: none;
+        margin-bottom: getEleN(80);
+        input{
+          margin-bottom: getEleN(40);
+        }
+
+
+        .btn div{
+          width:getEleN(320);
+          height:getEleN(88);
+          line-height: getEleN(88);
+          font-size: getEleN(34);
+          box-sizing: border-box;
+          border-radius: getEleN(4);
+        }
+        .cancle{
+          color: #555;
+          border:1px solid #b5b5b5;
+        }
+        .sure{
+          color: #00b38a;
+          border:1px solid #00b38a;
+          span{
+            opacity:0.4;
+          }
+
+
+        }
+    }
+    .commit{
+      width:100%;
+      height:getEleN(88);
+      line-height: getEleN(88);
+      background: #00b38a;
+      color: #fff;
+      font-size: getEleN(34);
+      border-radius: getEleN(4);
+      box-sizing: border-box;
+    }
+  }
+}
+
+.success{
+  padding:getEleN(70) getEleN(40);
+  background: #02c79a;
+  height:100%;
+  p{
+    color: #fff;
+    font-size: getEleN(32);
+    line-height: getEleN(50);
+    text-align: left;
+  }
+  img{
+    display: block;
+    width: getEleN(500);
+    margin: getEleN(50) auto;
+  }
+}

@@ -54,9 +54,9 @@ body {
 
 .titlebox {
   width: 9.2rem;
+  height: 0.36rem;
   margin: 0 auto;
-  position: relative;
-}
+  position: relative; }
 
 .line {
   border-bottom: 1px solid #e8e9eb;
@@ -75,10 +75,10 @@ body {
   width: 5.65333rem;
   height: 2.52rem;
   margin: 0 auto; }
-  .lightbox p {
-    color: #333;
-    font-size: 0.37333rem;
-    margin: 0.26667rem auto 0.8rem; }
+.lightbox p {
+  color: #333;
+  font-size: 0.37333rem;
+  margin: 0.26667rem auto 0.8rem; }
 
 .light, .notlit {
   margin-top: 0.34667rem;
@@ -101,8 +101,8 @@ body {
   font-size: 0.45333rem;
   color: #fff;
   border-radius: 0.04rem; }
-  .submitBtn span {
-    opacity: 0.3; }
+.submitBtn span {
+  opacity: 0.3; }
 
 .inputbox {
   height: 5.33333rem;
@@ -145,14 +145,14 @@ input::-webkit-input-placeholder {
   top: 50%;
   left: 0;
   margin-top: -1.09333rem; }
-  .warming span {
-    color: #ffffff;
-    font-size: 0.4rem;
-    border-radius: 0.2rem;
-    padding: 0.33333rem;
-    background: #333333;
-    opacity: 0.8;
-    display: inline-block; }
+.warming span {
+  color: #ffffff;
+  font-size: 0.4rem;
+  border-radius: 0.2rem;
+  padding: 0.33333rem;
+  background: #333333;
+  opacity: 0.8;
+  display: inline-block; }
 
 .error {
   top: 6.96rem; }

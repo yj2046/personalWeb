@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="拉勾网是最权威的互联网行业招聘网站,提供全国真实的互联网招聘信息,工资不面议当面谈,找工作,招聘网,寻人才就来拉勾网,互联网行业找工作首选拉勾网" name="description">
+    <meta content="互联网招聘,找工作,招聘网,人才网" name="keywords">
+    <meta name="baidu-site-verification" content="QIQ6KC1oZ6">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>职业顾问服务评价</title>
+
+    <link rel="stylesheet" href="signUp.css">
+
+</head>
+<script>
+    var cwidth = document.documentElement.clientWidth;
+    var cheight = document.documentElement.clientHeight;
+    var rate = (cheight/cwidth)*100;
+    if(rate>150){
+        document.getElementsByTagName("html")[0].style.fontSize=cwidth/10+'px';
+    }else{
+        document.getElementsByTagName("html")[0].style.fontSize=cwidth/11+'px';//魅族扁手机
+    }
+</script>
+<body>
+    <div class="box">
+        <div class="header">一拍服务信息确认</div>
+        <div class="main">
+            <div class="content">
+                <p class="oneP">联系方式请务必确认准确，职业顾问会与您电话沟通哦~</p>
+                <input type="text" value="18201064153" id="tel">
+                <div class="telError">
+                    <img src="./images/error.png" alt="">
+                    <span>请填写正确的联系方式</span>
+                </div>
+                <input type="text" value="yogi@lagou.com" id="mail">
+                <div class="mailError">
+                    <img src="./images/error.png" alt="">
+                    <span>请填写正确的邮箱地址</span>
+                </div>
+                <p class="mailTitle">您可在此处添加您求职过程中期望屏蔽的企业邮箱(选填)</p>
+                <p class="gray">对这些邮箱后缀的企业不可见</p>
+                <ul class="mailList">
+                    
+                </ul>
+                <div class="addMail"><b>+</b>&nbsp&nbsp添加</div>
+                <div class="one">
+                    <input type="text" value="@" id="inputMail">
+                    <div class="error">
+                        <img src="./images/error.png" alt="">
+                        <span>请填写正确的邮箱地址</span>
+                    </div>
+                    <div class="btn clearfix">
+                        <div class="cancle fl">取消</div>
+                        <div class="sure fr"><span>确认添加</span></div>
+                    </div>
+                </div>
+                <div class="commit">确认无误,坐等服务</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../common/js/zepto.min.js"></script>
+<script src="./signUp.js"></script>
+</html>
