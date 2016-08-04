@@ -76,7 +76,9 @@ body {
   text-align: left;
   margin: -0.29333rem 0 0.13333rem; }
 .main .content .error img, .main .content .telError img, .main .content .mailError img {
-  width: 0.33333rem; }
+  width: 0.33333rem;
+  position: relative;
+  top: 0.06667rem; }
 .main .content .error span, .main .content .telError span, .main .content .mailError span {
   color: #ff7452;
   font-size: 0.34667rem; }
