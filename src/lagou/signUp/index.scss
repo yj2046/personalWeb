@@ -38,7 +38,7 @@ input, select {
 html {
   background-color: #ffffff;
   height:100%;
-  }
+}
 
 body {
   height:100%;
@@ -165,7 +165,7 @@ body {
 .refuse_2{
   display: none;
   width:getEleN(620);
-  height:getEleN(410);
+  height:getEleN(415);
   box-sizing: border-box;
   padding:getEleN(80) getEleN(50) getEleN(50);
   position: fixed;
@@ -187,7 +187,7 @@ body {
   }
   div{
     width: getEleN(270);
-    margin:getEleN(15) auto 0;
+    margin:getEleN(32) auto 0;
     height: getEleN(88);
     line-height: getEleN(88);
     background: #00b38a;
