@@ -80,6 +80,8 @@ body {
       margin:getEleN(-22) 0 getEleN(10);
       img{
         width:getEleN(25);
+        position: relative;
+        top:getEleN(5);
       }
       span{
         color: #ff7452;
