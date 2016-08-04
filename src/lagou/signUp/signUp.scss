@@ -57,13 +57,7 @@ body {
   left:0;
   width:100%;
 }
-.successHeader{
-  height:getEleN(89);
-  line-height: getEleN(89);
-  background: #00b38a;
-  font-size: getEleN(36);
-  color: #fff;
-}
+
 .box{
   height: 100%;
   padding-top: getEleN(89);
@@ -204,6 +198,8 @@ body {
   padding:getEleN(70) getEleN(40);
   background: #02c79a;
   height:100%;
+  padding-top: getEleN(159);
+  box-sizing: border-box;
   p{
     color: #fff;
     font-size: getEleN(32);

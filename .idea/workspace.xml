@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28f2ffd4-0424-4900-8289-676aa7ada143" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lagou/signUp/images/publicImg.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lagou/signUp/signUp.css" afterPath="$PROJECT_DIR$/src/lagou/signUp/signUp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lagou/signUp/signUp.scss" afterPath="$PROJECT_DIR$/src/lagou/signUp/signUp.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lagou/signUp/success.html" afterPath="$PROJECT_DIR$/src/lagou/signUp/success.html" />
     </list>
     <ignored path="personalWeb.iws" />
@@ -57,8 +59,8 @@
       <file leaf-file-name="signUp.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lagou/signUp/signUp.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.333333">
-              <caret line="217" column="1" selection-start-line="217" selection-start-column="1" selection-end-line="217" selection-end-column="1" />
+            <state vertical-scroll-proportion="-10.156863">
+              <caret line="213" column="1" selection-start-line="213" selection-start-column="1" selection-end-line="213" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -67,8 +69,8 @@
       <file leaf-file-name="success.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lagou/signUp/success.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.77952754">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6614173">
+              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -84,8 +86,8 @@
       <file leaf-file-name="signUp.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lagou/signUp/signUp.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.083334">
-              <caret line="180" column="21" selection-start-line="180" selection-start-column="21" selection-end-line="180" selection-end-column="21" />
+            <state vertical-scroll-proportion="-10.156863">
+              <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,8 +112,8 @@
         <option value="$PROJECT_DIR$/src/lagou/signUp/index.html" />
         <option value="$PROJECT_DIR$/src/lagou/signUp/signUp.html" />
         <option value="$PROJECT_DIR$/src/lagou/signUp/signUp.js" />
-        <option value="$PROJECT_DIR$/src/lagou/signUp/signUp.scss" />
         <option value="$PROJECT_DIR$/src/lagou/signUp/signUp.css" />
+        <option value="$PROJECT_DIR$/src/lagou/signUp/signUp.scss" />
         <option value="$PROJECT_DIR$/src/lagou/signUp/success.html" />
       </list>
     </option>
@@ -122,8 +124,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="264" />
-    <option name="y" value="23" />
+    <option name="x" value="19" />
+    <option name="y" value="79" />
     <option name="width" value="1242" />
     <option name="height" value="777" />
   </component>
@@ -332,7 +334,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="264" y="23" width="1242" height="777" extended-state="0" />
+    <frame x="19" y="79" width="1242" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22522523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -443,6 +445,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44554454">
           <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -470,31 +473,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lagou/signUp/signUp.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.333333">
-          <caret line="217" column="1" selection-start-line="217" selection-start-column="1" selection-end-line="217" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lagou/signUp/signUp.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.083334">
-          <caret line="180" column="21" selection-start-line="180" selection-start-column="21" selection-end-line="180" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lagou/signUp/images/process_8.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lagou/signUp/signUp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.156863">
+          <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lagou/signUp/signUp.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.156863">
+          <caret line="213" column="1" selection-start-line="213" selection-start-column="1" selection-end-line="213" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lagou/signUp/success.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77952754">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6614173">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
           <folding />
         </state>
       </provider>
