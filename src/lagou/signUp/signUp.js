@@ -28,7 +28,7 @@ $(function () {
         e.stopPropagation();
         if(sureBtn){
             var mailValue = $("#inputMail").val();
-            var mailStr = '<li><input type="text" disabled="disabled" value="'+mailValue+'"><img src="./images/delete.png" alt="" class="delMail"></li>';
+            var mailStr = '<li><span>'+mailValue+'</span><img src="./images/delete.png" alt="" class="delMail"></li>';
             $(".mailList").append(mailStr);
             $(".one").hide();
             $(".addMail").show();
