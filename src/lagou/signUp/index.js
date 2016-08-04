@@ -8,10 +8,12 @@ $(function () {
         e.stopPropagation();
         if(showFlag){
             $('.pre').show();
+            $('.showAll').show();
             $('.back').hide();
             showFlag = false;
         }else{
             $('.pre').hide();
+            $('.showAll').hide();
             $('.back').show();
             showFlag = true;
         }
@@ -28,7 +30,13 @@ $(function () {
             $(".refuse").show();
         }
     });
+    //再考虑一下
+    $("body").on("tap", ".onceMore", function (e){
+        e.stopPropagation();
+        $(".refuse").hide();
+        $(".shadow").hide();
 
+    });
     //拒绝
     $("body").on("tap", "#refuse", function (e){
 
@@ -53,7 +61,9 @@ $(function () {
     $("body").on("tap", ".accept", function (e){
 
         e.stopPropagation();
-
+        if(noInterestFlag){
+            window.location.href = "signUp.html";
+        }
     });
 
 });

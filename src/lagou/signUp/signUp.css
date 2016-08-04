@@ -49,15 +49,28 @@ body {
   line-height: 1.18667rem;
   background: #00b38a;
   font-size: 0.48rem;
-  color: #fff; }
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
+.box {
+  height: 100%;
+  padding-top: 1.18667rem;
+  box-sizing: border-box; }
 
 .main {
   background: #02c79a;
-  padding: 0.13333rem; }
+  padding: 0.13333rem;
+  min-height: 100%;
+  box-sizing: border-box; }
   .main .content {
     background: #ffffff;
     border-radius: 0.08rem;
-    padding: 0.61333rem 0.4rem 2.06667rem; }
+    padding: 0.61333rem 0.4rem 2.06667rem;
+    min-height: 14.93333rem;
+    box-sizing: border-box; }
     .main .content .error, .main .content .telError, .main .content .mailError {
       display: none;
       text-align: left;
@@ -97,7 +110,8 @@ body {
         top: 50%;
         margin-top: -0.2rem;
         right: 0.29333rem;
-        width: 0.34667rem; }
+        width: 0.34667rem;
+        z-index: 999; }
     .main .content .addMail {
       height: 1.28rem;
       line-height: 1.28rem;

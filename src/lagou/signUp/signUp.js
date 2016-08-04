@@ -1,7 +1,7 @@
 $(function () {
     var sureBtn = false;
     var mailListFlag = true;
-    var shieldContent = "";  //屏蔽企业邮箱，多个邮箱按"@lagou.com;@baidu.com;@tencent.com"格式
+    var shieldContent = [];  //屏蔽企业邮箱，多个邮箱按"@lagou.com;@baidu.com;@tencent.com"格式
 
     //添加屏蔽邮箱
     $("body").on("tap", ".addMail", function (e){
@@ -28,19 +28,26 @@ $(function () {
         e.stopPropagation();
         if(sureBtn){
             var mailValue = $("#inputMail").val();
-            var mailStr = '<li><input type="text" value="'+mailValue+'"><img src="./images/delete.png" alt=""></li>';
+            var mailStr = '<li><input type="text" readonly="readonly" value="'+mailValue+'"><img src="./images/delete.png" alt="" class="delMail"></li>';
             $(".mailList").append(mailStr);
             $(".one").hide();
             $(".addMail").show();
             sureBtn = false;
             $("#inputMail").val("@");
-            shieldContent +=mailValue;
-        }
 
+            shieldContent.push(mailValue);
+
+        }
+    });
+    //删除邮箱后缀
+    $("body").on("tap", ".delMail", function (e){
+
+        e.stopPropagation();
+        var index = $(this).closest("li").index();
+        shieldContent.splice(index,1);
+        $(this).closest("li").remove();
 
     });
-
-
     //提交表单
     $('.commit').on('tap', function () {
 
