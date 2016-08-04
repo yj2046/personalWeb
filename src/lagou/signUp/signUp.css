@@ -78,7 +78,7 @@ body {
 .main .content .error img, .main .content .telError img, .main .content .mailError img {
   width: 0.33333rem;
   position: relative;
-  top: 0.06667rem; }
+  top: 0.04rem; }
 .main .content .error span, .main .content .telError span, .main .content .mailError span {
   color: #ff7452;
   font-size: 0.34667rem; }
