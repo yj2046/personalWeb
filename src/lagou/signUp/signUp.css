@@ -55,6 +55,13 @@ body {
   left: 0;
   width: 100%; }
 
+.successHeader {
+  height: 1.18667rem;
+  line-height: 1.18667rem;
+  background: #00b38a;
+  font-size: 0.48rem;
+  color: #fff; }
+
 .box {
   height: 100%;
   padding-top: 1.18667rem;

@@ -57,6 +57,13 @@ body {
   left:0;
   width:100%;
 }
+.successHeader{
+  height:getEleN(89);
+  line-height: getEleN(89);
+  background: #00b38a;
+  font-size: getEleN(36);
+  color: #fff;
+}
 .box{
   height: 100%;
   padding-top: getEleN(89);
