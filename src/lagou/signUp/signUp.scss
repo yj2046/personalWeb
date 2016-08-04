@@ -104,8 +104,9 @@ body {
     input{
       display: block;
       width:100%;
-      height:getEleN(98);
-      line-height: getEleN(98);
+      height:getEleN(28);
+      padding:getEleN(35) 0;
+      line-height: getEleN(28);
       border:none;
       background: #f5f5f5;
       outline: none;
